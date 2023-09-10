@@ -1,0 +1,28 @@
+{
+  "name": "vica-emulator",
+  "version": "0.0.0",
+  "description": "Emultor for VICA Computer",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "node build/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopmur/vica-emulator.git"
+  },
+  "keywords": [
+    "vica",
+    "emulator",
+    "simulator"
+  ],
+  "author": "Ali Jafari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gopmur/vica-emulator/issues"
+  },
+  "homepage": "https://github.com/gopmur/vica-emulator#readme",
+  "devDependencies": {
+    "viasm": "^0.2.2"
+  }
+}
